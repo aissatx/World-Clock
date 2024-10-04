@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1331690228728961363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6063086384846643527}
+  - component: {fileID: 5265436591354112990}
+  m_Layer: 0
+  m_Name: ClockPanelManagerObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6063086384846643527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331690228728961363}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5265436591354112990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331690228728961363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d90b3aac8bdd439c9a321b2df681cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clockPrefab: {fileID: 3375819203238592658, guid: f6f5702df83394adaaedbf9fa377df22, type: 3}
+  textPrefab: {fileID: 8234750898480537731, guid: dc969201d385e4c28af00dfce7bf8f89, type: 3}
+  startPosition: {x: 0, y: 0, z: 0}
+  horizontalSpacing: 10
+  verticalSpacing: 10
+  labelOffsetY: -1.5
+  clockImages:
+  - {fileID: 21300000, guid: 27ba1eceb984545a9adb3470e1350ddb, type: 3}
+  - {fileID: 21300000, guid: 7756003b19d03470bb3b4b19fcb451d0, type: 3}
+  - {fileID: 21300000, guid: aa8e385e6476d4132acccc64ddb065dc, type: 3}
+  - {fileID: 21300000, guid: 312d10520a7a5416c83140acd477e2c5, type: 3}
+  imagePrefab: {fileID: 1075868217612207420, guid: 1511c229189614a83901a75f00e990c8, type: 3}
